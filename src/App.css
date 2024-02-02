@@ -1,0 +1,293 @@
+.spacer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container{
+  padding-left: 160px;
+  /* padding-right: 300px; */
+}
+ul{
+     list-style: none;
+}
+
+
+/* top header */
+.info{
+     background-color:#003366;
+     color: white;
+     display: flex;
+     padding-left: 90px;
+}
+.email{
+     margin-left: 20px;
+     display: flex;
+     margin-top: 10px;
+}
+.email > p{
+  font-size: 18px;
+  margin: 12px 6px;
+}
+.mob{
+     margin-left: 170px;
+     font-size: 15px;
+     margin-top: 20px;
+}
+.social{
+     padding-left: 300px;
+     display: flex;
+}
+.social > p{
+     padding-right: 8px;
+     font-size: 20px;
+}
+/* start logo header */
+.logoheader{
+     display: flex;
+}
+.logoheader img{
+     margin-top: 20px;
+     width: 250px;
+}
+
+.mainheader{
+     display: flex;
+}
+.navbar{
+     display: flex;
+     margin-top: 30px;
+     margin-left: 100px;
+}
+.navbar li{
+     margin: 20px;
+     font-weight: bold;
+}
+
+/* offerd cource */
+
+.c_text{
+  text-align: center;
+}
+.c_text p{
+  font-size: 22px;
+}
+.allimage{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.img_all{
+  margin: 15px;
+  box-shadow: 0px 3px 3px rgb(224, 224, 224);
+  padding: 10px;
+}
+.img_all:hover{
+  box-shadow: 0px 0px 8px rgb(129, 126, 126);
+  cursor: pointer;
+  transition: .2s;
+}
+.img_all h2:hover{
+  color: #ffc600;
+}
+.star{
+  display: flex;
+}
+.startbtn{
+  display: flex;
+}
+.star p{
+  margin:  10px 5px;
+  color: #ffc600;
+}
+.btn{
+  margin-left: 100px;
+  border: none;
+  background-color: #003366;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+}
+
+/* count down */
+.container1{
+     display: flex !important;
+}
+.bg_img{
+     background-image: url(./image/counter_bg.jpg);
+     background-position:right;
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     height: 280px;
+   }
+   .one_img11{
+     text-align:center;
+     padding: 25px;
+   }
+   .number{
+     font-size: 30px;
+     color: white;
+     font-weight: bold;
+   }
+   .std{
+     font-size: 16px;
+     color: white;
+     font-weight: bold;
+   }
+
+/* why choose cretive */
+   .c_txt{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .row{
+    display: flex;
+    padding:10px 50px;
+  }
+  .choosetxt{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+  }
+  .chhose{
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgb(188, 183, 183);
+  }
+  .ch_txt{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .back1 img{
+    margin-left: 100px;
+  }
+  .h1{
+    text-align: center;
+  }
+
+/* all logos */
+.item{
+  margin: 10px;
+}
+.item_img{
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+}
+.allitem{
+  padding-right: 230px;
+}
+
+/* yellow hover */
+
+.dem_text p{
+  border: 1px solid rgb(188, 182, 182);
+  padding: 6px;
+  margin: 1px;
+  font-size: 15px;
+}
+.dem_text:hover{
+  background-color: #ffbc06;
+  transition: 0.8s;
+  color: white;
+}
+.allbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* footer */
+.footer{
+  background-color: rgba(0, 49, 100, 0.959);
+  padding: 40px 80px;
+  margin-top: 50px;
+  display: flex;
+}
+.footer_first{
+  color: white;
+  padding-top: 20px;
+  width: 37%;
+  font-size: 14px;
+  word-spacing: 3px;
+}
+.footer_txt{
+  padding-left: 90px;
+  font-size: 18px;
+}
+.logo_img > img{
+  padding-left: 90px;
+  padding-top: 30px;
+  width: 220px;
+}
+.fllow{
+  padding-left: 90px;
+  color: #ffbc06;
+  font-size: 18px;
+}
+.footer_icon .icon{
+  background-color:rgba(167, 167, 167, 0.432);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  padding-top: 8px;
+  margin: 2px;     
+}
+.icon:hover{
+  color: #ffbc06;
+  cursor: pointer;
+}
+.footer_icon{
+  padding-left: 80px;
+}
+.footer_sec{
+  color: white;
+  font-size: 18px;
+  width: 20%;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.footer_sec > p:hover{
+  color: #ffbc06;
+  cursor: pointer;
+}
+.contact{
+  color: white;
+  padding-top: 30px;
+}
+.ofc{
+  color: #ffbc06;
+  font-size: 17px;
+}
+.ofc:hover{
+  text-decoration: underline;
+  transition: .5s;
+}
+.add{
+  width: 70%;
+  color: white;
+  margin-top: -25px;
+}
+.mob{
+  color: #ffbc06;
+  padding-right: -200px;
+}
+.footer_third > p{
+  color: white;
+}
+.footer_third > p:hover{
+  color: #ffbc06;
+}
+.copy{
+  background-color: #00264d;
+  padding: 20px 200px;
+  color: white;
+  font-size: 18px;
+}
+.all_f{
+  display: flex;
+  flex-wrap: wrap;
+}
+.all_t{
+  margin-right: 5px;
+  padding-top: 18px;
+}
